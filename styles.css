@@ -1,1 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
+body {
+    background-color: #f4f4f4;
+    padding: 30px;
+}
+
+.container {
+    width: 850px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.header {
+    text-align: center;
+}
+
+.header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #1877f2;
+}
+
+.header h1 {
+    margin-top: 15px;
+    color: #1877f2;
+}
+
+section {
+    margin-top: 25px;
+}
+
+h2 {
+    color: #1877f2;
+    border-bottom: 2px solid #1877f2;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+p {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+
+/* Skill Icons */
+.icons {
+    margin-top: 15px;
+}
+
+.icons i {
+    font-size: 40px;
+    margin-right: 20px;
+    color: #1877f2;
+}
+
+
+/* Skill Badges */
+.badges span {
+    display: inline-block;
+    background-color: #1877f2;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin: 10px 5px;
+}
+
+
+/* Skill Percentage Bars */
+.skill {
+    margin: 15px 0;
+}
+
+.bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.html {
+    width: 95%;
+}
+
+.css {
+    width: 90%;
+}
+
+.js {
+    width: 80%;
+}
+
+.git {
+    width: 75%;
+}
